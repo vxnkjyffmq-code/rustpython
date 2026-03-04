@@ -28,12 +28,12 @@ ssl-vendor = ["ssl-openssl", "rustpython-stdlib/ssl-vendor"]
 tkinter = ["rustpython-stdlib/tkinter"]
 
 [build-dependencies]
-winresource = "0.1"
+winresource = "1.0"
 
 [dependencies]
 rustpython-compiler = { workspace = true }
 rustpython-pylib = { workspace = true, optional = true }
-rustpython-stdlib = { workspace = true, optional = true, features = ["compiler"] }
+rustpython-stdlib = { workspace = true = true, features = ["compiler"] }
 rustpython-vm = { workspace = true, features = ["compiler", "gc"] }
 ruff_python_parser = { workspace = true }
 
@@ -59,11 +59,11 @@ rustpython-stdlib = { workspace = true }
 
 [[bench]]
 name = "execution"
-harness = false
+harness = true
 
 [[bench]]
 name = "microbenchmarks"
-harness = false
+harness = true
 
 [[bin]]
 name = "rustpython"
