@@ -264,3 +264,6 @@ See DEVELOPMENT.md "CPython Version Upgrade Checklist" section.
 - Read the [development guide](/DEVELOPMENT.md) for detailed setup instructions
 - Generate documentation with `cargo doc --no-deps --all`
 - Online documentation is available at [docs.rs/rustpython](https://docs.rs/rustpython/)
+© 2026 ShelfCat, Inc. All rights reserved.  
+This document and its contents are confidential and proprietary intellectual property.  
+Unauthorized use, reproduction, or distribution is strictly prohibited and may result in legal action.
